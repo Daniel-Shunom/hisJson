@@ -1,3 +1,5 @@
+module Types (JsonValue(..)) where
+
 data JsonValue 
   = JsonNull
   | JsonBoolean
